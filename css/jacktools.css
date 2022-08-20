@@ -1,23 +1,25 @@
   .header {
     background-image: linear-gradient(135deg, #7cb12d 10%, #4c4d4b 100%) !important;
     border-radius: 0.5rem;
-    padding: 1rem;    
-    padding-bottom: 0rem;
+    padding: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
   }
   
   .header-logo {
     border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
+    width: 48px;
+    height: 48px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    transition: all 0.5s linear;
   }
   
   .header-title {
     line-height: 1;
-    font-size: 4rem;
+    font-size: 50px;
     font-weight: 400;
     margin-bottom: 0rem;
+    transition: all 0.5s linear;
   }
 
   .header-subtitle {
@@ -57,4 +59,19 @@
     display:block;
     margin-left:auto;
     margin-right:auto;
+  }
+
+  @media(max-width: 550px){
+    .header-logo{
+      transition: all 0.5s linear;
+      height: 26px;
+      width: 26px;
+      margin-bottom: -3px;
+    }
+
+  .header-title {
+    transition: all 0.5s linear;
+    font-size: 25px;
+    font-weight: 200;
+  }
   }
