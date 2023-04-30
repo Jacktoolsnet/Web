@@ -84,20 +84,13 @@
   }
 }
 
-.videowrapper {
-  float: none;
-  clear: both;
-  width: 100%;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
+.video-container {
+  padding-top: 56.25%;
 }
 
-.videowrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  height: 100%;
 }
