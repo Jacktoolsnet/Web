@@ -69,6 +69,14 @@
   margin-top: 1rem;
 }
 
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
+
 @media (max-width: 550px) {
   .header-logo {
     transition: all 0.5s linear;
@@ -84,13 +92,3 @@
   }
 }
 
-.video-container {
-  padding-top: 56.25%;
-}
-
-iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
