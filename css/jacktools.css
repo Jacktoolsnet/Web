@@ -77,6 +77,14 @@ iframe {
   height: auto;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
+
 @media (max-width: 550px) {
   .header-logo {
     transition: all 0.5s linear;
